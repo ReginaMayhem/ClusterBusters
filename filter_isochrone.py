@@ -122,6 +122,8 @@ def optimize_age_metallicity(points):
         if distance_diff < best_distance_diff:
             best_distance_diff = distance_diff
             best = (log_age, feh)
-    
-    return best, best_distance_diff
+            
+    distances_from_isochrones = isochrone_filter_distances(points, 10**best[0], best[1], True, isochrones_raw)
+    effective_distances = 10*u.pc* (10**((how_far_is_point_from_isochrone)/5))
+    return best, best_distance_diff_log, effective_distances_from_best
         
