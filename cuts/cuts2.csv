@@ -1,7 +1,0 @@
-stream_file,ra_min,ra_max,dec_min,dec_max
-gaia_mock_streams/stream-1011.fits.gz,0,50,-70,0
-gaia_mock_streams/stream-3526.fits.gz,50,110,-50,80
-gaia_mock_streams/stream-9164.fits.gz,200,300,-50,0
-gaia_mock_streams/stream-112.fits.gz,125,175,-90,90
-gaia_mock_streams/stream-2985.fits.gz,150,360,-50,90
-gaia_mock_streams/stream-3506.fits.gz,50,150,-60,60
