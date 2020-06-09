@@ -1,0 +1,5 @@
+Auxiliary Code Used for Exploration and Plot Generation
+
+Files Included:
+Generate_Background_Stars- auxiliary code used to generate background stars that were assigned to the simulated stellar streams
+Plot_Generation_Exploration- contains auxiliary code used to understand features and generate other plots
