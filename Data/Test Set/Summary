@@ -1,0 +1,2 @@
+This folder contains the files that were used to evaluate metrics for each stellar stream
+The test set is divided into two: the first is used for calculating metrics while the other is used to supplement the training set
