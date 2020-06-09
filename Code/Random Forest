@@ -1,7 +1,0 @@
-This folder contains 5 notebooks written for the Random Forest and Recurrent (Self-Learning) Random Forest models
-
-Recursive_RF_Simulated_Streams- contains code for evaluation on simulated streams
-Recursive_RF_GD1- contains code for evaluation on known stellar stream (GD1)
-Recursive_RF_Simulated_Streams- contains exploratory code for evaluation on known stellar stream (Palomar 5)
-Generate_Background_Stars- auxiliary code used to generate background stars that were assigned to the simulated stellar streams
-Plot_Generation_Exploration- contains auxiliary code used to understand features and generate other plots
