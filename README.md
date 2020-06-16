@@ -1,6 +1,6 @@
-# My Paper Title
+# Meta-Learning One-Class Classification with DeepSets: Application in the Milky Way
 
-This repository is the official implementation of [Meta-Learning One-Class Classification with DeepSets: Application in the Milky Way]
+This repository is the official implementation of Meta-Learning One-Class Classification with DeepSets: Application in the Milky Way
 
 ## Requirements
 
