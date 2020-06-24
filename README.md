@@ -53,7 +53,7 @@ Our models achieve the following performance on :
 
 | Model name               |  Precision  |  Recall  |  Balanced Acc  |   MCC   |
 | ------------------------ |------------ | -------- | -------------- | ------- |
-| DS FT (best train Rec)   |    0.402    |   0.869  |     0.984      |  0.574  |
-| Random Forest (Self-Lab) |    0.341    |   0.981  |     0.930      |  0.587  |
+| DS FT (best train Rec)   |    0.341    |   0.981  |     0.984      |  0.574  |
+| Random Forest (Self-Lab) |    0.402    |   0.869  |     0.930      |  0.587  |
 
 
