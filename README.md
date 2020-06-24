@@ -39,7 +39,7 @@ python3 fine_tune_gd1.py --model_file=../../Logs/best_models/deepset_D5_1_0.001_
 
 Our models achieve the following performance on :
 
-### [GD1]
+### GD1
 
 | Model name               |  Precision  |  Recall  |  Balanced Acc  |   MCC   |
 | ------------------------ |------------ | -------- | -------------- | ------- |
