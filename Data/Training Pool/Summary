@@ -1,4 +1,0 @@
-This folder contains the files that were used for training each model
-
-Note that this is a master set, which includes some of the stars that are used for the test set.
-The test set was first generated then the remaining stars in the 'pool' available to us were sub-sampled to generate a training set.

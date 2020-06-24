@@ -1,2 +1,0 @@
-This folder contains the validation files that were used to conduct hyper-parameter tuning for our models
-The validation set is divided into two: the first is used for calculating metrics while the other is used to supplement the training set
