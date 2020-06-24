@@ -26,8 +26,6 @@ For GD1:                            Recursive_RF_GD1.ipynb
 
 For Pal5 (exploratory):             Recursive_RF_Pal5.ipynb
 
-Note that evaluation on the testing streams also takes place within the same Jupyter notebooks.
-
 ## Evaluation
 
 To evaluate the Deep Sets model on the set of testing streams, navigate to "Code/Deep Sets/" and run:
@@ -36,6 +34,8 @@ To evaluate the Deep Sets model on the set of testing streams, navigate to "Code
 python3 eval_model.py --model_file=../../Logs/best_models/deepset_D5_1_0.001_100_50_300000_1e-06_bestF1.params
 --log_file='../../Logs/eval_test_final.txt' --eval_dataset=../../Data/Deep Sets Files/test_final_test.pkl
 ```
+
+Note that evaluation on the testing streams also takes place within the same Jupyter notebooks.
 
 ## Fine-Tuning on GD1
 
