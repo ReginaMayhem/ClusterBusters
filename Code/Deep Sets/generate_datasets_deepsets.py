@@ -448,6 +448,6 @@ if __name__ == '__main__':
         print("invalid argument for mode")
 
 
-## python3 generate_datasets_deepsets.py --mode=train --save_as="../../Data/Deep Sets Files/training_test_blah.pkl"
-## python3 generate_datasets_deepsets.py --mode=valid --save_as="../../Data/DeepSets Files/valid_blah"
+## python3 generate_datasets_deepsets.py --mode=train --save_as="../../Data/Deep Sets Files/training_test.pkl"
+## python3 generate_datasets_deepsets.py --mode=valid --save_as="../../Data/DeepSets Files/valid"
 ## python3 generate_datasets_deepsets.py --mode=test --save_as="../../Data/DeepSets Files/test"
