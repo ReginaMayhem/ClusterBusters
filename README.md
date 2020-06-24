@@ -9,6 +9,13 @@ To install requirements, navigate to the appropriate folder and then run:
 ```setup
 pip install -r requirements.txt
 ```
+## Generate Datasets for Deep Sets
+
+To generate datasets for the Deep Sets model, navigate to "Code/Deep Sets/" and run (for train, validation, or test):
+
+```generate datasets
+python3 generate_datasets_deepsets.py --mode=train --save_as="../../Data/Deep Sets Files/training_test.pkl"
+```
 
 ## Training
 
