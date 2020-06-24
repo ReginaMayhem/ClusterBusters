@@ -1,0 +1,1 @@
+Eval on ../../Data/DeepSets Files/test_final_test.pkl : prec 0.698 & rec 0.643 & f1 0.652 & f2 0.643 & f05 0.674  &  mcc 0.660 & ba 0.821
