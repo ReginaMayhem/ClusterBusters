@@ -19,8 +19,11 @@ python3 train_deepset.py --max_count=10000 --num_epochs=50
 ```
 
 To train the Recursive Random Forest model, navigate to "Code/Random Forests/" and run:
+
 For the simulated Streams:          Recursive_RF_Simulated_Streams.ipynb
+
 For GD1:                            Recursive_RF_GD1.ipynb
+
 For Pal5 (exploratory):             Recursive_RF_Pal5.ipynb
 
 Note that evaluation on the testing streams also takes place within the same Jupyter notebooks.
