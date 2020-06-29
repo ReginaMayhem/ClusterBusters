@@ -42,7 +42,7 @@ python3 eval_model.py --model_file=../../Logs/best_models/deepset_D5_1_0.001_100
 --log_file='../../Logs/eval_test_final.txt' --eval_dataset=../../Data/Deep Sets Files/test_final_test.pkl
 ```
 
-Note that evaluation on the testing streams also takes place within the same Jupyter notebooks.
+Note that evaluation on the testing streams for the Random Forest also takes place within the same Jupyter notebooks.
 
 ## Fine-Tuning on GD1
 
