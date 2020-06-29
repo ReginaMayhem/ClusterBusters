@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ```
 ## Generate Datasets for Deep Sets
 
-The training and evaluation of the Meta-Deep Sets is done on a dataset format as follow: each element of the dataset is a triplet of (x (the example to classify), y(its labels), s (a support set of positive examples taken as input of the Deep Sets as well) ). To generate these datasets, navigate to "Code/Deep Sets/" and run (for train, validation, or test) and use the function 'generate_datasets_deepsets.py". 
+The training and evaluation of the Meta-Deep Sets is done on a dataset format as follow: each element of the dataset is a triplet of (x (the example to classify), y(its labels), s (a support set of positive examples taken as input of the Deep Sets as well) ). To generate these datasets, navigate to "Code/Deep Sets/" and run (for train, validation, or test) the script 'generate_datasets_deepsets.py". 
 
 Use 'mode' argument to generate train, valid, or test dataset. 
 Use 'save_as' to indicate where to save the generated pickle files.
@@ -26,7 +26,7 @@ python3 generate_datasets_deepsets.py --mode=train --save_as="../../Data/Deep Se
 
 ## Training
 
-To train the Deep Sets model, navigate to "Code/Deep Sets/" and run 'train_deepset'. 
+To train the Deep Sets model, navigate to "Code/Deep Sets/" and run 'train_deepset.py'. 
 Arguments are: 'num_epochs' (number of iteration to train for --no early stopping--, each iteration covers 'max_count' examples) default 50, 'max_count' (number of examples seen per epoch, default 300000), lr (learning rate, default 1e-3), l1 (l1-regularization, default 1e-6), weight_imbalance (weight to balance the loss, default 100), net_dim (hidden size of the deepset network, default 100), 'train_dataset' and 'eval_dataset' name files for the pickles files, 'log_dir' directory for the logs.
 Defaults for max_count, epochs, net_dim are the hyper-parameters used in the paper. 
 
@@ -44,7 +44,7 @@ For Pal5 (exploratory):             Recursive_RF_Pal5.ipynb
 
 ## Evaluation
 
-To evaluate a trained Deep Sets model on the set of testing streams, navigate to "Code/Deep Sets/" and run 'eval_model'. 
+To evaluate a trained Deep Sets model on the set of testing streams, navigate to "Code/Deep Sets/" and run 'eval_model.py'. 
 Arguments: 'model_file' to indicate the model to load, 'net_dim' the hidden dimension of the Deep Sets to load (default 100), 'eval_dataset' to indicate which file to evaluate on.
 
 We provide the pre-trained models corresponding to the results shown on the Synthetic streams in the paper in the Logs folder.
