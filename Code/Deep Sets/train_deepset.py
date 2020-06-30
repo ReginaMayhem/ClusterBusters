@@ -29,8 +29,8 @@ parser.add_argument('--weight_imbalance', type=float, default=100, help='Imbalan
 parser.add_argument('--net_dim', type=int, default=100, help="size of hidden layer in deepset")
 parser.add_argument('--max_count', type=int, default=300000, help="Number of examples seen in one epoch, eval after max_count")
 
-parser.add_argument('--train_dataset', type=str, default='../../Data/Deep Sets Files/train.pkl', help="Training dataset")
-parser.add_argument('--eval_dataset', type=str, default='../../Data/Deep Sets Files/valid_halffinal.pkl', help="Validation dataset")
+parser.add_argument('--train_dataset', type=str, default='../../Data/Deep Sets Files/training_test.pkl', help="Training dataset")
+parser.add_argument('--eval_dataset', type=str, default='../../Data/Deep Sets Files/valid_final_test.pkl', help="Validation dataset")
 
 parser.add_argument('--log_dir', type=str, default='../../Logs/', help="Log directory")
 
