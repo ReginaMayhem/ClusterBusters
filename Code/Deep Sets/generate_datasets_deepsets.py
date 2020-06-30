@@ -409,7 +409,7 @@ if __name__ == '__main__':
         print("Generating training dataset")
         folder_stream = '../../Data/Training Set/Training Streams/Stream Stars'
         folder_foreground = '../../Data/Training Set/Training Streams/Background Stars'
-        train_set = setup_train_dataset( #known_ratio = args.known_ratio, 
+        train_set, _ = setup_train_dataset( #known_ratio = args.known_ratio, 
                     noise_sample_ratio = args.foreground_sample_ratio, 
                       verbose = True, factor_positive_ratio = args.factor_positive_ratio,
                       max_support_size = args.max_support_size, min_support_size = args.min_support_size,
