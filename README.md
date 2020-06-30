@@ -58,7 +58,13 @@ Note that evaluation on the testing streams for the Random Forest also takes pla
 
 ## Fine-Tuning on GD1
 
-First, to download the GD1 datasets, please install Git LFS and run the following command:
+First, to download the GD1 datasets, please install Git LFS using the following command:
+
+```install git lfs
+git lfs install
+```
+
+After installing git lfs, run the following command to download the GD1 dataset required for fine-tuning:
 
 ```download GD1 using Git LFS
 git lfs pull
