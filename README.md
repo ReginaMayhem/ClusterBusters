@@ -58,6 +58,12 @@ Note that evaluation on the testing streams for the Random Forest also takes pla
 
 ## Fine-Tuning on GD1
 
+First, to download the GD1 datasets, please install Git LFS and run the following command:
+
+```download GD1 using Git LFS
+git lfs pull
+```
+
 To fine-tune a pretrained Deep Sets model on GD1, navigate to "Code/Deep Sets/" and run 'fine_tune_gd1.py'. The code generates a dataset of similar format. 
 'model_file' and 'net_dim' indicate which model to use and hidden dim of the model. 'factor_trainset' indicates the number of negative examples to train on relative to number of positive examples (known) each epoch (resampled from the full negative training set). 'lr' change the learning rate (default is 0.0005)
 
