@@ -16,7 +16,7 @@ pip install -r requirements.txt
 The training and evaluation of the Meta-Deep Sets is done on a dataset format as follow: each element of the dataset is a triplet of (x (the example to classify), y(its labels), s (a support set of positive examples taken as input of the Deep Sets as well) ). To generate these datasets, navigate to "Code/Deep Sets/" and run (for train, validation, or test) the script 'generate_datasets_deepsets.py". 
 
 Use 'mode' argument to generate train, valid, or test dataset. 
-Use 'save_as' to indicate where to save the generated pickle files.
+Use 'save_as' to indicate where to save the generated pickle files (full name for 'train', base name for 'valid' and 'test' mode : this will generate two sub-dataset pickle files for the self-labelization dataset and the 'final test' dataset).
 Other arguments / parameters used to generate the training set (only):  'foreground_sample_ratio' indicate to which ratio sample the foreground when generating the  dataset, 'factor_positiv_ratio' is used in train to duplicate positive examples, 'max_support_size' and 'min_support_size' are used to cap the support set size, 'max_ratio_support' is an additional cap expressed as a percentage of stream stars to use to sample the support set.
 Not using these parameters will generate a similar training set used in the paper:
 
