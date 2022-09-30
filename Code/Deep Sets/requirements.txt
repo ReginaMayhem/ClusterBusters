@@ -14,7 +14,7 @@ gast==0.3.3
 grpcio==1.27.2
 h5py==2.10.0
 idna==2.9
-joblib==0.15.1
+joblib==1.2.0
 Keras-Preprocessing==1.1.2
 kiwisolver==1.2.0
 mkl-fft==1.1.0
